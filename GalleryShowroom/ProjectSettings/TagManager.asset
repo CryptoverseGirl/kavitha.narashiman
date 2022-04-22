@@ -13,9 +13,9 @@ TagManager:
   - UI
   - 
   - Teleport
-  - DistanceGrabLayer
-  - HeadRelated
-  - 
+  - Restricted
+  - Player
+  - Grabbable
   - 
   - 
   - 
