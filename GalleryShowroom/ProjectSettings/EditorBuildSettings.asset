@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Avatarandlocomotionstage6.unity
+    path: Assets/Scenes/Avatarandlocomotion(Wall Mirror).unity
     guid: 0b74c3bff186faf47b22f8186a8ccdf0
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e95217e17bbc2a9438c72cd822c57267,
