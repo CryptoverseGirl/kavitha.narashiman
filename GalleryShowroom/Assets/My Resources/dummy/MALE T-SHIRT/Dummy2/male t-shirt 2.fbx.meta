@@ -3,7 +3,27 @@ guid: e12f5ba87931e184180be86876a26337
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: generated.png
+    second: {fileID: 2100000, guid: 5f57943c4d6e7dd4dbac9e50d047bbd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: model.jpg
+    second: {fileID: 2100000, guid: f0d25ad87a90c2b4c88a7e5c8c457752, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: outfit_meta_1.png
+    second: {fileID: 2100000, guid: 57fd557e2bbbe824f86127d654c1ab42, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 9a
+    second: {fileID: 2800000, guid: 72bc66c7e831a7940a48e62cbe01755e, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -37,7 +57,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
