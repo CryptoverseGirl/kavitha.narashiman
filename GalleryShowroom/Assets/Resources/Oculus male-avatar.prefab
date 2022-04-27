@@ -2178,7 +2178,6 @@ GameObject:
   - component: {fileID: 3492861873863118279}
   - component: {fileID: 3492861873863118300}
   - component: {fileID: 3492861873863118303}
-  - component: {fileID: 6995135821210546265}
   - component: {fileID: 6995135821210546262}
   - component: {fileID: 6995135821210546263}
   - component: {fileID: 6995135821210546267}
@@ -2219,7 +2218,7 @@ Animator:
   m_GameObject: {fileID: 4375329018934784148}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: ab3049fb5edda604fa3cdbbefba5ce78, type: 3}
-  m_Controller: {fileID: 9100000, guid: 78f02360f31c1a547b937559d34b03b1, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2250,7 +2249,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4375329018934784148}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfac4fa329d1f4f23814af71a247c14b, type: 3}
   m_Name: 
@@ -2506,31 +2505,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4375329018934784148}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8fea0a1ed093a58429be8ed8720ac82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ik: {fileID: 3492861873863118300}
   scaleMlp: 1
---- !u!114 &6995135821210546265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4375329018934784148}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowLayerWeightsInspector: 1
-  ShowParameterInspector: 1
-  m_SynchronizeParameters: []
-  m_SynchronizeLayers:
-  - SynchronizeType: 1
-    LayerIndex: 0
 --- !u!114 &6995135821210546262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2550,7 +2531,6 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 0
   ObservedComponents:
-  - {fileID: 6995135821210546265}
   - {fileID: 6995135821210546263}
   sceneViewId: 0
   InstantiationId: -1
@@ -2570,7 +2550,7 @@ MonoBehaviour:
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
-  m_UseLocal: 1
+  m_UseLocal: 0
 --- !u!114 &6995135821210546267
 MonoBehaviour:
   m_ObjectHideFlags: 0
