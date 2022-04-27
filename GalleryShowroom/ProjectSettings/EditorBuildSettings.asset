@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/AvatarTeleportWithMannequinPlatformRotateButton(Wall Mirror).unity
+    path: Assets/Scenes/SingleUser.unity
     guid: 29ba284585848a8408f5670357b6c6ff
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e95217e17bbc2a9438c72cd822c57267,
