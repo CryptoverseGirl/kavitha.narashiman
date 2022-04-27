@@ -77,7 +77,7 @@ namespace ExitGames.Demos.DemoPunVoice
                 }
                 else
                 {
-                    GameObject o = this.PrefabsToInstantiate[index];
+                    GameObject o = this.PrefabsToInstantiate[CollabManager.Instance.AvatarIndex];
                     o = PhotonNetwork.Instantiate(o.name, spawnPos, spawnRotation);
                     if (CharacterInstantiated != null)
                     {
