@@ -8,6 +8,8 @@ public class Apparel : MonoBehaviour
 
     public Button TryButton;//{ get; set; }
     public Texture2D MyTexture;// { get; set; }
+
+    public int GenderIndex;// { get; set; }
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,10 @@ public class Apparel : MonoBehaviour
 
     public void OnOufit()
     {
-        CollabManager.Instance.ChangeMyAvatarShirt(MyTexture);
+        if (CollabManager.Instance.AvatarIndex==GenderIndex)
+        {
+            CollabManager.Instance.ChangeMyAvatarShirt(MyTexture, this);
+        }
+       
     }
 }
