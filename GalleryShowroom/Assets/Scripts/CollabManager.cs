@@ -29,7 +29,7 @@ public class CollabManager : MonoBehaviour
         {
             Instance = this;
         }
-        OnAvatarSelection(0);
+        //OnAvatarSelection(0);
         RPCHandler.Instance.RegisterForApparelChange(ApparelChangeOerNetwork);
     }
 
