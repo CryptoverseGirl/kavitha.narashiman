@@ -1290,7 +1290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3778891390320461719
 Transform:
   m_ObjectHideFlags: 0
@@ -1716,7 +1716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ControllerCamera: {fileID: 4897539601649469735}
-  speed: 1
+  speed: 2
   cameraDistance: 0.5
   mouseLook:
     XSensitivity: 2
