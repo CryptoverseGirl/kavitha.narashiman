@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.17276844, g: 0.21589246, b: 0.2978263, a: 1}
+  m_IndirectSpecularColor: {r: 0.172769, g: 0.21589276, b: 0.29782623, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -20320,8 +20320,7 @@ MonoBehaviour:
   voiceDetection: 1
   voiceDetectionThreshold: 0.01
   voiceDetectionDelayMs: 500
-  unityMicrophoneDevice: "Microphone Array (Intel\xAE Smart Sound Technology for
-    Digital Microphones)"
+  unityMicrophoneDevice: Headset Microphone (Plantronics Blackwire 5220 Series)
   photonMicrophoneDeviceId: 0
   interestGroup: 0
   debugEchoMode: 0
