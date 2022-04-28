@@ -78,6 +78,7 @@ namespace ExitGames.Demos.DemoPunVoice {
             this.thirdPersonController.enabled = false;
             this.orthographicController = character.GetComponent<OrthographicController>();
             this.ButtonsHolder.SetActive(true);
+            FirstPersonMode();
         }
 
         private void FirstPersonMode() {
