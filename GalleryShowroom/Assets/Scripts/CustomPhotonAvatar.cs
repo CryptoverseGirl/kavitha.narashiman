@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using RootMotion.FinalIK;
-
+using RootMotion.Demos;
 public class CustomPhotonAvatar : MonoBehaviour
 {
     
@@ -27,6 +27,8 @@ public class CustomPhotonAvatar : MonoBehaviour
         }
         else
         {
+            this.GetComponent<VRIK>().enabled = false;
+            this.GetComponent<VRIKAvatarScaleCalibrationOculus>().enabled = false;
             if (!CollabManager.Instance.Playerdict.ContainsKey(photonView.Owner.ActorNumber))
             {
                 Player tempPlayer = new Player();
