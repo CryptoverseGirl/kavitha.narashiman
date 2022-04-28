@@ -17,7 +17,7 @@ public class CustomPhotonAvatar : MonoBehaviour
             GameObject avatarParent = GameObject.FindGameObjectWithTag("AvatarParent");
             this.transform.parent = avatarParent.transform;
             this.transform.localPosition = new Vector3(0, 0, -0.106f);
-           // MapTransforms(avatarParent.GetComponent<OvrAvatarMapper>(), this.GetComponent<VRIK>());
+            MapTransforms(avatarParent.GetComponent<OvrAvatarMapper>(), this.GetComponent<VRIK>());
             Player tempPlayer = new Player();
             tempPlayer.PlayerId = photonView.Owner.ActorNumber;
             tempPlayer.Character = this.gameObject;
