@@ -3675,6 +3675,7 @@ MonoBehaviour:
   - {fileID: 7826626877254046336}
   - {fileID: 390288719}
   - {fileID: 310171083}
+  - {fileID: 356724034}
 --- !u!4 &341627967
 Transform:
   m_ObjectHideFlags: 0
@@ -21753,7 +21754,8 @@ MonoBehaviour:
   voiceDetection: 1
   voiceDetectionThreshold: 0.01
   voiceDetectionDelayMs: 500
-  unityMicrophoneDevice: Headset Microphone (HyperX Virtual Surround Sound)
+  unityMicrophoneDevice: "Microphone Array (Intel\xAE Smart Sound Technology for
+    Digital Microphones)"
   photonMicrophoneDeviceId: 0
   interestGroup: 0
   debugEchoMode: 0
