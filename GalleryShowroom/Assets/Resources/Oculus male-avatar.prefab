@@ -2293,7 +2293,7 @@ MonoBehaviour:
       positionWeight: 1
       rotationWeight: 1
       headClampWeight: 0.6
-      minHeadHeight: 0.6
+      minHeadHeight: 0.3
       useAnimatedHeadHeightWeight: 0
       useAnimatedHeadHeightRange: 0.1
       animatedHeadHeightBlend: 0.3
@@ -2405,7 +2405,7 @@ MonoBehaviour:
       maxRootOffset: 0.5
       rootRotationHeader: 0
       maxRootAngleMoving: 25
-      maxRootAngleStanding: 70
+      maxRootAngleStanding: 90
       stepLengthMlp: 1
       footDistance: 0.3
       stepThreshold: 0.4
