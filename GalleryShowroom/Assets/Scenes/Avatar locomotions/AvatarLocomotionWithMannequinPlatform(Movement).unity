@@ -8120,19 +8120,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ik: {fileID: 1405647997}
   scaleMlp: 1
---- !u!114 &1405647999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1405647973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 221da2010c61c7945a155224ce279603, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Shirt_Mesh: {fileID: 1713346936}
 --- !u!1 &1417542266
 GameObject:
   m_ObjectHideFlags: 0
@@ -9850,12 +9837,6 @@ Transform:
   m_Father: {fileID: 66361525}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &1713346936 stripped
-SkinnedMeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 6094616028902761002, guid: ab3049fb5edda604fa3cdbbefba5ce78,
-    type: 3}
-  m_PrefabInstance: {fileID: 1405647972}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1717132838
 PrefabInstance:
   m_ObjectHideFlags: 0
